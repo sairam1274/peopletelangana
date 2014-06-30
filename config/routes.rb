@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
-  root to: "static#develope"
-  
-  get 'static/develope'
+  root to: "static#website"
+
+  get 'static/website'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
